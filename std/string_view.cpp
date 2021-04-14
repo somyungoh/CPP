@@ -4,8 +4,12 @@
 //
 //	This demonstrates the std::string_view 
 //	as well as the simple heap allocation tracking
+//	This is an implementation of the YouTube channel
+//	The Chero > How to make your STRINGS FASTER in C++!
 //
-//	compile: clang++ string_view.cpp -std=c++17 -o string_view
+//	compile: clang++ string_view.cpp -std=c++17 -o bin/string_view
+//
+//
 //
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::://
 
