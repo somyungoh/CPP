@@ -3,7 +3,10 @@
 
 #if BUILD_WITH_STRUCT
 struct Informer g_informer;
+// inline struct Informer g_informer;
 #else
 std::string g_str = "string too long for short string"
                     "optimization";
+// inline std::string g_str = "string too long for short string"
+// "optimization";
 #endif

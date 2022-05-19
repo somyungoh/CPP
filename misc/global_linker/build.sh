@@ -16,4 +16,5 @@ echo "compiling main.cpp"
 # Compile main execuatble translation unit
 clang++ -std=c++14 -c main.cpp
 # Link executable against static and shared libraries
-clang++ -L./ -Wl main.o -ldynamic -lstatic
+clang++ -L./ -Wl main.o -lstatic -ldynamic      # segfault (see main.cpp for why)
+clang++ -L./ -Wl main.o -ldynamic -lstatic      # no issue (no multiple ctor/dtor)

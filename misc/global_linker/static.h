@@ -4,7 +4,7 @@
 #include <string>
 
 #ifndef BUILD_WITH_STRUCT
-#   define BUILD_WITH_STRUCT   0
+#   define BUILD_WITH_STRUCT   1
 #endif
 
 #if BUILD_WITH_STRUCT
